@@ -33,6 +33,4 @@ $plugin->release   = 'v1.0.0'; // Human-readable version name.
 $plugin->maturity  = MATURITY_STABLE; // Maturity level: MATURITY_ALPHA, MATURITY_BETA, MATURITY_RC, or MATURITY_STABLE.
 $plugin->cron      = 0; // Set to 1 to enable cron-based processing.
 
-$plugin->dependencies = array(
-    'block' => ANY_VERSION
-);
+
